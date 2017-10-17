@@ -15,7 +15,9 @@ namespace HopperTech.Models
         public int CreditHours { get; set; }
         public string Location { get; set; }
         public string Department { get; set; }
-        public virtual ICollection<Student> Students { get; set; }
+
+
+        public virtual ICollection<Course_Student> Courses_Students { get; set; }
         
 
     }
